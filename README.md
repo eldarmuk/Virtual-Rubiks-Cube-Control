@@ -1,38 +1,21 @@
-# Virtual-Rubiks-Cube-Control
+# Virtual Rubik’s Cube Control
 
-Virtual-Rubiks-Cube-Control is a Python-based project that allows you to solve a virtual Rubik's Cube using hand gestures. With this application, you can manipulate a 3D Rubik's Cube on your computer screen by moving your hands in front of a camera. It provides an interactive and fun way to solve the classic puzzle.
-**Please Note**: This project is currently a work in progress.
+A concept for controlling a virtual Rubik’s Cube with hand gestures, using Python, OpenCV and MediaPipe.
 
-## Features
+**Status: concept only in this public repository.** As of 9 October 2026, the repository contains this README and a licence; it does not include application source code, a runnable demo or an evaluated implementation.
 
-- Real-time hand tracking and gesture recognition.
-- Virtual 3D Rubik's Cube on your computer screen.
-- Intuitive gesture controls for cube rotations and movements.
-- Automatic solving of the Rubik's Cube when completed.
-- Easy-to-use and interactive interface.
+## Intended design
 
-# Contributing
+- Track hand gestures from a camera.
+- Map gestures to rotations of a virtual 3D cube.
+- Explore an interactive interface and automatic solving.
 
-Once the core work is completed, this project will be open for contributions and feature requests.
+These are design goals, not implemented features in the current repository. Setup and usage instructions can be added when source code is published.
 
-## Requirements
+## Place in my portfolio
 
-- Python 3.x
-- OpenCV
-- MediaPipe
+This is an early computer-vision concept. For my current AI research and implemented software projects, see my [GitHub overview](https://github.com/eldarmuk) and [portfolio](https://eldarmukhtar.ovh/projects).
 
-## Usage
+## Licence
 
-1. Clone or download this repository to your local machine.
-2. Install the required libraries mentioned in the 'Requirements' section.
-3. Run the main script to start the application.
-4. Follow the on-screen instructions for hand gesture controls.
-5. Solve the Rubik's Cube by moving your hands!
-
-## How It Works
-
-Virtual-Rubiks-Cube-Control uses computer vision techniques to detect and track your hand movements in real time. It recognizes predefined hand gestures and translates them into corresponding Rubik's Cube movements. The virtual cube's state is continuously updated as you make gestures.
-
-## License
-
-This project is licensed under the [Apache License 2.0](LICENSE).
+[Apache License 2.0](LICENSE).
